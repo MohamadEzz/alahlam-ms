@@ -2,9 +2,9 @@
 
     session_start();
     $pageTitle = 'Alahlam Medical Supplis';
-    include 'init.php'; 
+    include 'init.php';
 
-?>         
+?>
 <!--    Start Section About location   -->
 <section class="about-location">
   <div class="container">
@@ -22,13 +22,14 @@
         </div>
         <div class="m">
             <h3 class="h2">We are dealing with the Best.</h3>
+            <!-- needs rewriting  -->
             <p class="lead">The company relies on the registration of products classified in one of the biggest European countries and East Asia</p>
         </div>
 
     </div>
   </div>
 </section>
-<!--    Start Section About location   -->  
+<!--    Start Section About location   -->
 
 <!--    Start Section About           -->
 <section class="about text-center">
