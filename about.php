@@ -5,6 +5,9 @@
     include 'init.php';
 
 ?>
+
+<!-- Needs some work -->
+
 <!--    Start Section About location   -->
 <section class="about-location">
   <div class="container">
