@@ -4,8 +4,9 @@
 	** function to get all tables items from DB
 	** 6 Parameters
 	** Requird 1 Parameters //$table//
-	** Other Parameters Optional 
+	** Other Parameters Optional
 	****************************************/
+	//TODO: fix the order of parameters
 	function getAll($table, $orderby = NULL, $where = NULL, $item = Null, $and = NULL, $ordring = 'DESC'){
 		global $con;
 

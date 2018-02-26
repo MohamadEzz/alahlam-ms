@@ -2,8 +2,8 @@
 
   session_start();
   $pageTitle = 'Alahlam Medical Supplis';
-  include 'init.php'; 
-?>  
+  include 'init.php';
+?>
 <!--            Start Section Contact Us         -->
 <section class="contactus">
     <div class="container">
@@ -17,9 +17,10 @@
                   <li class="lead">Website : alahlam-ms.com </li>
               </ul>
             </div>
-            
+
             <div class="email-us col-md-6">
               <h2>Email Us</h2>
+              <!-- this form needs some work -->
               <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST" class="form-center">
                 <div class="form-group">
                     <input type="text" class="form-control input-lg" name="email" placeholder="You'r Email Here">
@@ -30,7 +31,7 @@
                 <div class="form-group">
                     <input type="text" class="form-control input-lg" name="name" placeholder="You'r Name">
                 </div>
-           
+
                 <div class="form-group">
                     <textarea class="form-control input-lg" name="text" placeholder="your Text Go Here"></textarea>
                 </div>
@@ -46,7 +47,7 @@
               $emailsubject = 'Medical Supplies';
               $emailaddress = 'mohamadezoo@gmail.com';
 
-              // Gethering Data 
+              // Gethering Data
 
               $emailField = $_POST['email'];
               $phoneField = $_POST['phone'];
@@ -96,7 +97,7 @@ EOD;
     </div>
   </div>
 </section>
-<!--    Start Section About location   -->    
+<!--    Start Section About location   -->
 
 <!--   Start Section About           -->
 <section class="about text-center">

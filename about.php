@@ -12,6 +12,7 @@
 
         <div class="about col-md-8 text-center">
             <h2>Meet The Owner</h2>
+            <!-- not the right image.  need to be changed !!!! -->
             <img class="img-circle" src="layout/imgs/person (1).jpg" alt="The Owner">
             <p class="lead">We Brovide Alot of servise for our Clients so We hope you enjoy our services hope you enjoy our servicesWe Brovide Alot of servise for our Clients so We hope you enjoy our services hope you enjoy our services</p>
         </div>
